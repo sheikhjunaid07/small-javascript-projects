@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+}
+
+button {
+  margin-left: 50%;
+  height: 35px;
+  width: 170px;
+  border-radius: 20px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 12px;
+}
+
+h2 {
+  margin-left: 45%;
+  margin-top: 50vh;
+}
