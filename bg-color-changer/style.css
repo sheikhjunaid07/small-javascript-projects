@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+}
+#bg-text {
+  font-size: 40px;
+}
+
+#grey {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: grey;
+  color: white;
+  border-radius: 20px;
+}
+#white {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+#blue {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+#yellow {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: yellow;
+  color: white;
+  border-radius: 20px;
+}
+#purple {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: purple;
+  color: white;
+  border-radius: 20px;
+}
