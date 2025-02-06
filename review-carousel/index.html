@@ -7,83 +7,25 @@
     <title>Review Carousel</title>
   </head>
   <body>
+    
     <!-- Heading -->
     <div id="heading">
       <h1 id="heading-text">Our Review</h1>
       <div id="bottom-line"></div>
     </div>
+    <br />
 
     <!-- Review box -->
     <div id="center-box">
-      <img
-        id="emp-img"
-        height="100px"
-        width="70px"
-        src="./images/image1.jpg"
-        alt="image1"
-      />
+      <img id="emp-img" src="./images/image1.jpg" alt="image1" />
       <h3 id="author">Sheikh</h3>
-      <p id="job">Web Designer</p>
-      <p id="info">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati
-        excepturi commodi vero vitae. Assumenda laudantium commodi quasi eius
-        pariatur.
-      </p>
+      <p id="job">Backend Designer</p>
+      <p id="info">Lorem ipsum</p>
 
-      <button id="preBtn">Preview</button>
-      <button id="nextBtn">Next</button>
+      <button class="btn" id="preBtn"><</button>
+      <button class="btn" id="nextBtn">></button>
     </div>
 
-    <script>
-      let reviews = [
-        {
-          id: 1,
-          name: "Joey",
-          job: "Web Developer",
-          img: "./images/image1.jpg",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecatexcepturi commodi vero vitae. Assumenda laudantium commodi quasi eiupariatur",
-        },
-        {
-          id: 2,
-          name: "Amy",
-          job: "Mobile Developer",
-          img: "./images/image2.jpg",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecatexcepturi commodi vero vitae. Assumenda laudantium commodi quasi eiupariatur",
-        },
-        {
-          id: 3,
-          name: "Raj",
-          job: "UI Designer",
-          img: "./images/image3.jpg",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecatexcepturi commodi vero vitae. Assumenda laudantium commodi quasi eiupariatur",
-        },
-        {
-          id: 4,
-          name: "Alex",
-          job: "Web Developer",
-          img: "./images/image4.jpg",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecatexcepturi commodi vero vitae. Assumenda laudantium commodi quasi eiupariatur",
-        },
-      ];
-
-      const img = document.getElementById("emo-img");
-      const author = document.getElementById("author");
-      const job = document.getElementById("job");
-      const info = document.getElementById("info");
-      const preBtn = document.getElementById("preBtn");
-      const nextBtn = document.getElementById("nextBtn");
-
-      //set items
-      let currentItem = 0;
-
-      //load initial item
-      window.addEventListener("DOMContentLoaded", () => {
-        const item = reviews[currentItem];
-        // img.src = item.img;
-        author.textContent = item.name;
-        job.textContent = item.job;
-        info.textContent = item.text;
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
