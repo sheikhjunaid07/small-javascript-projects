@@ -1,0 +1,42 @@
+body {
+  background-color: azure;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#menu {
+  color: dodgerblue;
+  border: none;
+  background-color: azure;
+  font-size: 35px;
+  font-weight: 600;
+}
+#menu:hover { 
+  color: dodgerblue;
+  border: none;
+  background-color: azure;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+/* sidebar styling */
+.sidebar {
+  background-color: beige;
+  width: 50vh;
+  height: 86vh;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.nav-option li {
+  list-style: none;
+  padding-top: 14px;
+}
+
+.nav-option li a {
+  text-decoration: none;
+  color: #303030;
+  font-size: 30px;
+}
+.nav-option li a:hover {
+  text-decoration: none;
+  color: grey;
+  font-size: 30px;
+}
